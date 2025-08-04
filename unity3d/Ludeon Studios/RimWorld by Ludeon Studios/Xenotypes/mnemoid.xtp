@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedXenotype>
+	<meta>
+		<gameVersion>1.6.4518 rev81</gameVersion>
+		<modIds>
+			<li>ludeon.rimworld</li>
+			<li>ludeon.rimworld.royalty</li>
+			<li>ludeon.rimworld.ideology</li>
+			<li>ludeon.rimworld.biotech</li>
+			<li>ludeon.rimworld.anomaly</li>
+			<li>ludeon.rimworld.odyssey</li>
+		</modIds>
+		<modSteamIds>
+			<li>0</li>
+			<li>1149640</li>
+			<li>1392840</li>
+			<li>1826140</li>
+			<li>2380740</li>
+			<li>0</li>
+		</modSteamIds>
+		<modNames>
+			<li>Core</li>
+			<li>Royalty</li>
+			<li>Ideology</li>
+			<li>Biotech</li>
+			<li>Anomaly</li>
+			<li>Odyssey</li>
+		</modNames>
+	</meta>
+	<xenotype>
+		<name>mnemoid</name>
+		<inheritable>True</inheritable>
+		<genes>
+			<li>PsychicAbility_Extreme</li>
+			<li>MoveSpeed_Slow</li>
+			<li>MinTemp_SmallIncrease</li>
+			<li>MaxTemp_SmallDecrease</li>
+			<li>MeleeDamage_Weak</li>
+			<li>Libido_High</li>
+			<li>Fertile</li>
+			<li>Beauty_Beautiful</li>
+			<li>Ears_Cat</li>
+			<li>Hair_SnowWhite</li>
+			<li>Learning_Fast</li>
+			<li>Nearsighted</li>
+			<li>DarkVision</li>
+			<li>Hair_Grayless</li>
+			<li>ElongatedFingers</li>
+			<li>Tail_Smooth</li>
+			<li>AptitudeTerrible_Shooting</li>
+			<li>AptitudeTerrible_Melee</li>
+		</genes>
+		<iconDef>Basic</iconDef>
+	</xenotype>
+</savedXenotype>
