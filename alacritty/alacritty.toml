@@ -1,0 +1,80 @@
+[general]
+  import = [
+    "~/.config/alacritty/themes/gruvbox_dark.toml",
+  ]
+  working_directory = "None"
+  live_config_reload = true
+  ipc_socket = true
+
+[env]
+  WINIT_X11_SCALE_FACTOR = "1.0"
+
+[window]
+  dimensions = { columns = 0, lines = 0 }
+# Number of line/columns (not pixels) in the terminal.
+# Both lines and columns must be non-zero for this to take effect
+# The number of columns must be at least 2, while using a value of 0 for columns and lines
+# will fall back to the window manager's recommended size
+
+  position = "None" # {x = <integer>, y = <integer>} # has no effect on wayland
+# Window startup position. Specified in number of pixels. 
+# "None" - lets window manager to manage position
+
+  padding = { x = 0, y = 0 }
+# Blank space added around the window in pixels.
+# This value scaled by DPI and specified value is always added at both opposing sides
+
+  dynamic_padding = false
+# Spread additional padding evenly around the terminal content
+
+  decorations = "None"
+# Window decorations
+#   Full - Borders and title bar
+#   None - Neither borders nor title bar
+#   Transparent - macOS only. Title bar, transparent background and title bar buttons
+#   Buttonless - macOS only. Title bar, transparent background and no title bar buttons
+
+  opacity = 1.0
+# Background opacity as floating point number from 0.0 to 1.0.
+# The value 0.0 is completely transparent and 1.0 is opaque
+
+  blur = false # Works on macOS/KDE wayland
+# Requests compositor to blur content behind transparent windows
+
+  startup_mode = "Windowed"
+# Startup mode
+#   Windowed - regular window
+#   Maximized - maximized window
+#   Fullscreen - The window will be fullscreened
+#   SimpleFullscreen - same as Fullscreen, but windows can be stacked on top
+
+  title = "Alacritty"
+  dynamic_title = true
+  class = { instance = "Alacritty", general = "Alacritty" } # Linux/BSD only
+  #decorative_theme_variant = "Dark"
+  #resize_increment = false # Works on macOS/X11
+  option_as_alt = "None" # macOS only
+  level = "Normal"
+# Sets window level
+#   Normal - window adheres to system's default z-order
+#   AlwaysOnTop - window is a toplevel window
+
+[scrolling]
+  history = 10000
+# 0 - scrolling disabled
+# 100000 - maximum number of lines
+
+  multiplier = 3
+# Number of lines scrolled for every input scroll increment
+
+[font]
+  normal = { family = "monospace", style = "Regular" }
+  bold = { style = "Bold" }
+  italic = { style = "Italic" }
+  bold_italic = { style = "Bold Italic" }
+  size = 13.0
+  offset = { x = 0, y = 2 }
+  glyph_offset = { x = 0, y = 0 }
+  builtin_box_drawing = true
+
+  
