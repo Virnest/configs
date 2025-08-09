@@ -44,9 +44,9 @@ vim.opt.lazyredraw = true
 vim.opt.synmaxcol = 300
 
 -- File handling
-vim.opt.backup = false
-vim.opt.writebackup = false
-vim.opt.swapfile = false
+vim.opt.backup = true
+vim.opt.writebackup = true
+vim.opt.swapfile = true
 vim.opt.undofile = true
 vim.opt.undodir = vim.fn.expand("~/.vim.undodir")
 vim.opt.updatetime = 300
