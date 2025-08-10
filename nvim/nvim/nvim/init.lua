@@ -1,5 +1,5 @@
 -- theme & transparency
-vim.cmd.colorscheme("slate")
+vim.cmd.colorscheme("retrobox")
 vim.api.nvim_set_hl(0, "Normal", {bg = "none"})
 vim.api.nvim_set_hl(0, "NormalNC", {bg = "none"})
 vim.api.nvim_set_hl(0, "EndOfBuffer", {bg = "none"})
@@ -29,7 +29,7 @@ vim.opt.incsearch = true
 -- Visual settigs
 vim.opt.termguicolors = true
 vim.opt.signcolumn = "yes"
-vim.opt.colorcolumn = "0"
+vim.opt.colorcolumn = "100"
 vim.opt.showmatch = true
 vim.opt.matchtime = 2
 vim.opt.cmdheight = 1
@@ -44,9 +44,9 @@ vim.opt.lazyredraw = true
 vim.opt.synmaxcol = 300
 
 -- File handling
-vim.opt.backup = true
-vim.opt.writebackup = true
-vim.opt.swapfile = true
+vim.opt.backup = false
+vim.opt.writebackup = false
+vim.opt.swapfile = false
 vim.opt.undofile = true
 vim.opt.undodir = vim.fn.expand("~/.vim.undodir")
 vim.opt.updatetime = 300
