@@ -1,5 +1,17 @@
+
+vim.g.mapleader = " "
+vim.g.netrw_banner = 1 
+vim.g.netrw_browse_split = 4
+vim.g.netrw_altv = 1
+vim.g.netrw_liststyle = 3
+
+vim.opt.title = true
+vim.cmd('set path+=**')
+vim.opt.syntax = "ON"
+vim.opt.showtabline = 2
+vim.opt.laststatus = 2
 -- theme & transparency
-vim.cmd.colorscheme("slate")
+vim.cmd.colorscheme("gruvbox")
 vim.api.nvim_set_hl(0, "Normal", {bg = "none"})
 vim.api.nvim_set_hl(0, "NormalNC", {bg = "none"})
 vim.api.nvim_set_hl(0, "EndOfBuffer", {bg = "none"})
@@ -29,12 +41,12 @@ vim.opt.incsearch = true
 -- Visual settigs
 vim.opt.termguicolors = true
 vim.opt.signcolumn = "yes"
-vim.opt.colorcolumn = "100"
+vim.opt.colorcolumn = "0"
 vim.opt.showmatch = true
 vim.opt.matchtime = 2
 vim.opt.cmdheight = 1
 vim.opt.completeopt = "menuone,noinsert,noselect"
-vim.opt.showmode = false
+vim.opt.showmode = true 
 vim.opt.pumheight = 10
 vim.opt.pumblend = 10
 vim.opt.winblend = 0
