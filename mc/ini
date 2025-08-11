@@ -1,7 +1,7 @@
 [Midnight-Commander]
 verbose=true
 shell_patterns=true
-auto_save_setup=false
+auto_save_setup=true
 preallocate_space=false
 auto_menu=false
 use_internal_view=true
@@ -19,17 +19,17 @@ safe_overwrite=false
 use_8th_bit_as_meta=false
 mouse_move_pages_viewer=true
 mouse_close_dialog=false
-fast_refresh=true
-drop_menus=true
+fast_refresh=false
+drop_menus=false
 wrap_mode=true
 old_esc_mode=true
 cd_symlinks=true
-show_all_if_ambiguous=true
+show_all_if_ambiguous=false
 use_file_to_guess_type=true
 alternate_plus_minus=false
 only_leading_plus_minus=true
 show_output_starts_shell=false
-xtree_mode=true
+xtree_mode=false
 file_op_compute_totals=true
 classic_progressbar=true
 use_netrc=true
@@ -83,11 +83,12 @@ editor_backup_extension=~
 editor_filesize_threshold=64M
 editor_stop_format_chars=-+*\\,.;:&>
 mcview_eof=
-skin=gruvbox
+skin=julia256
+filepos_max_saved_entries=1024
 
 [Layout]
 output_lines=0
-left_panel_size=47
+left_panel_size=31
 top_panel_size=0
 message_visible=true
 keybar_visible=true
@@ -142,4 +143,3 @@ Find rejects after patching=find . -name \\*.rej -print
 Find *.orig after patching=find . -name \\*.orig -print
 Find SUID and SGID programs=find . \\( \\( -perm -04000 -a -perm /011 \\) -o \\( -perm -02000 -a -perm /01 \\) \\) -print
 Modified git files=git ls-files --modified
-
