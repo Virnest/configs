@@ -57,7 +57,7 @@ vim.opt.synmaxcol = 300
 
 -- File handling
 vim.opt.backup = true
-vim.opt.writebackup = true
+vim.opt.writebackup = false 
 vim.opt.swapfile = true
 vim.opt.undofile = true
 vim.opt.undodir = vim.fn.expand("~/.vim.undodir")
