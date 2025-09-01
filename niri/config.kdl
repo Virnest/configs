@@ -257,16 +257,16 @@ layout {
 
 // This line starts waybar, a commonly used bar for Wayland compositors.
 spawn-at-startup "swww-daemon"
-spawn-at-startup "swww" "img ~/Picture/portal-aesthetic.jpg"
 spawn-at-startup "xwayland-satellite"
 spawn-at-startup "waybar"
+spawn-at-startup "alacritty"
 
 clipboard {
     disable-primary
 }
 
 environment {
-		DISPLAY ":1"
+		DISPLAY ":0"
 		QT_QPA_PLATFORM "wayland"
 }
 // Uncomment this line to ask the clients to omit their client-side decorations if possible.
