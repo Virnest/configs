@@ -339,8 +339,8 @@ window-rule {
 
 binds {
 
-    // Ctrl+C { spawn "sh" "-c" "env DISPLAY=:1 xsel -ob | wl-copy"; }
-    // Ctrl+V { spawn "sh" "-c" "wl-paste -p | env DISPLAY=:1 xsel -ib"; }
+    //Ctrl+C { spawn "sh" "-c" "env DISPLAY=:1 xsel -ob | wl-copy"; }
+    //Ctrl+V { spawn "sh" "-c" "wl-paste -p | env DISPLAY=:1 xsel -ib"; }
     // Keys consist of modifiers separated by + signs, followed by an XKB key name
     // in the end. To find an XKB name for a particular key, you may use a program
     // like wev.
@@ -351,8 +351,8 @@ binds {
     // Most actions that you can bind here can also be invoked programmatically with
     // `niri msg action do-something`.
 
-    Mod+Slash hotkey-overlay-title="Pick color with hyprpicker" { spawn "hyprpicker" "-a"; }
-    Mod+z hotkey-overlay-title="Magnify with hyprmag" { spawn "hyprmag" "-r 400"; }
+    Mod+Slash hotkey-overlay-title="Use hyprpicker" { spawn "hyprpicker" "-a"; }
+
     // Mod-Shift-/, which is usually the same as Mod-?,
     // shows a list of important hotkeys.
     Mod+Shift+Slash { show-hotkey-overlay; }
