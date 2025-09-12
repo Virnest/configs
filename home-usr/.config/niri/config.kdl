@@ -258,8 +258,8 @@ layout {
 // This line starts waybar, a commonly used bar for Wayland compositors.
 spawn-at-startup "swww-daemon"
 spawn-at-startup "xwayland-satellite"
-spawn-at-startup "waybar"
-spawn-at-startup "alacritty"
+// spawn-at-startup "waybar"
+spawn-at-startup "kitty"
 
 clipboard {
     disable-primary
