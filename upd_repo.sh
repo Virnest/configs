@@ -27,5 +27,5 @@ echo "\n\n\n=== Copying .bashrc ==="
 
 echo "\n\n\n=== Git Stuff"
   git add .
-  git commit -m "%Y-%m-%d %H:%M:%S"
+  git commit -m date
   git push
