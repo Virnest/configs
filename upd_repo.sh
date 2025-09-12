@@ -1,7 +1,5 @@
 #! /bin/bash
 
-current_datetime=$(date +"%Y-%m-%d %H:%M:%S")
-
 echo "\n\n\n=== Copying .config ==="
 
   config_path=~/configs/home-usr/.config
@@ -29,5 +27,5 @@ echo "\n\n\n=== Copying .bashrc ==="
 
 echo "\n\n\n=== Git Stuff"
   git add .
-  git commit -m '{$current_datetime}'
+  git commit -m "%Y-%m-%d %H:%M:%S"
   git push
