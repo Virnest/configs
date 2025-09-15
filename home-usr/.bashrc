@@ -10,4 +10,4 @@ alias ll='ls -la --color=auto'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
-swww img ./.config/background
+swww img ~/.config/background
