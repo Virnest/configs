@@ -38,10 +38,10 @@ sudo chmod u+x /etc/cron.weekly/fstrim
 
 
 sudo xbps-install linux-firmware mesa-dri mesa-dri-32bit
-sudo xbps-install nvidia nvidia-libs-32bit
-sudo sed -i "s/blacklist nouveau/#blacklist nouveau/g" /etc/modprobe.d/nouveau_blacklist.conf
-sudo sed -i "s/blacklist nouveau/#blacklist nouveau/g" /usr/lib/modprobe.d/nvidia.conf
-sudo sed -i "s/blacklist nouveau/#blacklist nouveau/g" /usr/lib/modprobe.d/nvidia-dkms.conf
+#sudo xbps-install nvidia nvidia-libs-32bit
+#sudo sed -i "s/blacklist nouveau/#blacklist nouveau/g" /etc/modprobe.d/nouveau_blacklist.conf
+#sudo sed -i "s/blacklist nouveau/#blacklist nouveau/g" /usr/lib/modprobe.d/nvidia.conf
+#sudo sed -i "s/blacklist nouveau/#blacklist nouveau/g" /usr/lib/modprobe.d/nvidia-dkms.conf
 
 
 sudo xbps-install noto-fonts-ttf noto-fonts-cjk noto-fonts-emoji nerd-fonts
