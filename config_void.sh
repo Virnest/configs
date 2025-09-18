@@ -26,8 +26,14 @@ sudo ln -s /etc/sv/dbus /var/service/
 
 
 sudo xbps-install elogind
-sudo ln -s /etc/sv/elogind /var/service/
+#sudo ln -s /etc/sv/elogind /var/service/
 
+
+sudo xbps-install NetworkManager
+sudo unlink /var/service/dhcpcd
+sudo unlink /var/service/wpa_supplicant
+#sudo unlink /var/service/
+sudo ln -s /etc/sv/NetworkManager /var/service/
 
 sudo xbps-install cronie
 if [ ! -d /etc/cron.weekly ]; then
