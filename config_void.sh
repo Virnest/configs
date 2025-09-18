@@ -25,6 +25,10 @@ sudo xbps-install dbus
 sudo ln -s /etc/sv/dbus /var/service/
 
 
+sudo xbps-install elogind
+sudo ln -s /etc/sv/elogind /var/service/
+
+
 sudo xbps-install cronie
 if [ ! -d /etc/cron.weekly ]; then
     sudo mkdir /etc/cron.weekly
@@ -58,5 +62,5 @@ sudo ln -s /etc/sv/bluetoothd /var/service/
 sudo xbps-install libspa-bluetooth
 
 
-sudo xbps-install gnome gnome-core gnome-apps
-sudo ln -s /etc/sv/gdm /var/service/
+#sudo xbps-install gnome gnome-core gnome-apps
+#sudo ln -s /etc/sv/gdm /var/service/

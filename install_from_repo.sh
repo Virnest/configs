@@ -7,13 +7,13 @@ if [ -d ~/yay ]; then
    echo 'yay exists'
 else
     echo "yay dosn't exist"
-    cd ~/
-    sudo pacman -S --needed git base-devel
-    git clone https://aur.archlinux.org/yay.git
-    cd yay
-    makepkg -si
+    #cd ~/
+    #sudo pacman -S --needed git base-devel
+    #git clone https://aur.archlinux.org/yay.git
+    #cd yay
+    #makepkg -si
 fi
 
-yay -Syu
+#yay -Syu
 
 cd ~/configs
